@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.profile h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.profile p {
+    color: #888;
+    font-size: 16px;
+}
+
+.about, .skills {
+    margin-bottom: 20px;
+}
+
+.about h2, .skills h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.about p, .skills ul {
+    font-size: 16px;
+    color: #555;
+}
+
+.skills ul {
+    list-style: none;
+}
+
+.skills ul li {
+    padding: 5px 0;
+}
+
+.footer {
+    text-align: center;
+    color: #aaa;
+    font-size: 14px;
+}
